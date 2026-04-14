@@ -36,8 +36,6 @@ section {
   font-family: "Limelight";
   font-size: 48px;
   font-weight: 400;
-  letter-spacing: 6px;
-  text-transform: uppercase;
   margin: 0;
 }
 .principal {
@@ -51,8 +49,6 @@ section {
   color: #064661;
   font-size: 32px;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 3px;
   margin-bottom: 20px;
 }
 .apresentacao_paragrafo{
@@ -149,8 +145,13 @@ transform: scale(1.2);
 }
 .contato_lista {
   margin-top: 16px;
-  display: grid;
+  display: flex;
   gap: 16px;
+}
+.contato_lista_conjunto {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 8px;
 }
 .contato_item {
   color: #064661;
@@ -161,6 +162,10 @@ transform: scale(1.2);
   align-items: center;
   gap: 12px;
   text-decoration: none;
+}
+.contato_item_logo {
+  width: 24px;
+  height: 24px;
 }
 .rodape {
   width: 100%;
